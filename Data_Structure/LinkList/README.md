@@ -5,9 +5,9 @@
  - [x]  [Linked List Insertion](https://www.geeksforgeeks.org/linked-list-set-3-deleting-node/)
  - [x]  [Linked List Deletion (Deleting a given key)](https://www.geeksforgeeks.org/delete-a-linked-list-node-at-a-given-position/)
  - [x]  [Linked List Deletion (Deleting a key at given position)](https://www.geeksforgeeks.org/delete-a-linked-list-node-at-a-given-position/)
- - [o]  Find Length of a Linked List (Iterative and Recursive)
- - []  How to write C functions that modify head pointer of a Linked List?
- - []  Swap nodes in a linked list without swapping data
+ - [ ]  Find Length of a Linked List (Iterative and Recursive)
+ - [ ]  How to write C functions that modify head pointer of a Linked List?
+ - [ ]  Swap nodes in a linked list without swapping data
  - []  Reverse a linked list
  - []  Merge two sorted linked lists
  - []  Merge Sort for Linked Lists
