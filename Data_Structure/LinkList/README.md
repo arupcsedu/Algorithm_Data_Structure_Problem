@@ -2,9 +2,9 @@
 
 #### Singly Linked List:
  
- - [x]  [Linked List Insertion](https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/)
- - [x]  [Linked List Deletion (Deleting a given key)](https://www.geeksforgeeks.org/linked-list-set-3-deleting-node/)
- - [ ]  [Linked List Deletion (Deleting a key at given position)](https://www.geeksforgeeks.org/delete-a-linked-list-node-at-a-given-position/)
+ - [x]  [LinkList.cpp:- Linked List Insertion](https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/)
+ - [x]  [LinkListDeleteKey.cpp:- Linked List Deletion (Deleting a given key)](https://www.geeksforgeeks.org/linked-list-set-3-deleting-node/)
+ - [x]  [LinkListDeleteWithPosition.cpp:- Linked List Deletion (Deleting a key at given position)](https://www.geeksforgeeks.org/delete-a-linked-list-node-at-a-given-position/)
  - [ ]  Find Length of a Linked List (Iterative and Recursive)
  - [ ]  How to write C functions that modify head pointer of a Linked List?
  - [ ]  Swap nodes in a linked list without swapping data
