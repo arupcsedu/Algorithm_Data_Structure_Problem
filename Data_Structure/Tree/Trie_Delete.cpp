@@ -1,3 +1,11 @@
+/*
+Date: 22/02/2018
+Description: Implementation of Trie Delete
+Author: Arup Kumar Sarker
+url: https://www.geeksforgeeks.org/trie-delete/
+*/
+
+
 #include <stdio.h>
 #include <malloc.h>
 
@@ -81,10 +89,68 @@ int searchIntoTrie(tlist *pNode, char key[])
             return 0;
         pCrawl = pCrawl->children[idx];
     }
-    return (!pCrawl) && pCrawl->isLastNode ;
+    return (0 != pCrawl) && (pCrawl->isLastNode) ;
+}
+ int isItFreeNode(tNode *pNode)
+ {
+    for(int i = 0; i<ALPHABET_MAX; i++)
+    {
+        if(pNode->children[i])
+            return 0;
+    }
+    return 1;
+ }
+
+ int isLeafNode(tNode *pNode)
+ {
+    return (pNode->isLastNode != 0);
+ }
+
+bool deleteKeyHelper(tNode *root, char key[], int level, int len)
+{
+    if(root)
+    {
+        if(level == len)
+        {
+            if(root->isLastNode != 0)
+            {
+                root->isLastNode = 0;
+                if(isItFreeNode(root))
+                    return true;
+                return false;
+            }
+        }
+        else
+        {
+            int idx = IDX(key[level]);
+            if(deleteKeyHelper(root->children[idx], key, level+1, len))
+            {
+                FREE(root->children[idx]);
+                return (!isLeafNode(root)) && isItFreeNode(root);
+            }
+        }
+    }
+    return false;
+}
+void deleteKey(tlist *pNode, char key[])
+{
+    int len = sstrlen(key);
+    if(len>0)
+    {
+            deleteKeyHelper(pNode->root, key, 0, len);
+    }
 }
 int main()
 {
-    cout << "Hello world!" << endl;
+    char keys[][8] = {"she", "sells", "sea", "shore", "the", "by", "sheer"};
+    tlist pNode;
+    intialize(&pNode);
+    for(int i = 0;i<8;i++)
+    {
+        insertToTrie(&pNode, keys[i]);
+    }
+    deleteKey(&pNode, keys[0]);
+
+    printf("%s %s\n", "she", searchIntoTrie(&pNode, "she") ? "Present in trie" : "Not present in trie");
     return 0;
 }
