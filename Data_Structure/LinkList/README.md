@@ -7,7 +7,7 @@
  - [x]  [LinkListDeleteWithPosition.cpp:- Linked List Deletion (Deleting a key at given position)](https://www.geeksforgeeks.org/delete-a-linked-list-node-at-a-given-position/)
  - [x]  [LinkListLength.cpp:- Find Length of a Linked List (Iterative and Recursive)](https://www.geeksforgeeks.org/find-length-of-a-linked-list-iterative-and-recursive/)
  - [ ]  How to write C functions that modify head pointer of a Linked List?
- - [ ]  Swap nodes in a linked list without swapping data
+ - [x]  [SwapList.cpp:- Swap nodes in a linked list without swapping data](https://www.geeksforgeeks.org/swap-nodes-in-a-linked-list-without-swapping-data/)
  - [ ]  Reverse a linked list
  - [ ]  Merge two sorted linked lists
  - [ ]  Merge Sort for Linked Lists
