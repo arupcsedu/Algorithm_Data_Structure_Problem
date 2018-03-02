@@ -8,7 +8,7 @@
  - [x]  [LinkListLength.cpp:- Find Length of a Linked List (Iterative and Recursive)](https://www.geeksforgeeks.org/find-length-of-a-linked-list-iterative-and-recursive/)
  - [ ]  How to write C functions that modify head pointer of a Linked List?
  - [x]  [SwapList.cpp:- Swap nodes in a linked list without swapping data](https://www.geeksforgeeks.org/swap-nodes-in-a-linked-list-without-swapping-data/)
- - [ ]  Reverse a linked list
+ - [X]  [ReverseList.cpp:-Reverse a linked list](https://www.geeksforgeeks.org/reverse-a-linked-list/)
  - [ ]  Merge two sorted linked lists
  - [ ]  Merge Sort for Linked Lists
  - [ ]  Reverse a Linked List in groups of given size
