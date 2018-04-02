@@ -8,6 +8,10 @@
  
  - [x]  [ListTest.cpp:- List Implementation](https://www.geeksforgeeks.org/list-cpp-stl/)
 
+#### Deque:
+ 
+ - [x]  [DqueTest.cpp:- Deque Implementation](https://www.geeksforgeeks.org/deque-cpp-stl/ )
+
 #### Forward List:
  
  - [x]  [FWList.cpp:- Forward List Implementation](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/)
